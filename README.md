@@ -85,6 +85,7 @@ You can come up with your own human-readable representation of the play-by-play 
 <ol>
     <li>In our system of three players, who wins the most? Explain why you made this conclusion.</li>
     <li>After how many samples were you able to confidently make this determination?</li>
+</ol>
 
 ##Submitting your solution:
 Please email us a link to your solution and answers on Github to team@sevenrooms.com with the subject: "A simple game of ping pong" along with your name, and a cover letter if you want to include one, and any other information you'd like us to know about you or your solution.
