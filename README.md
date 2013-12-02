@@ -18,8 +18,7 @@ We definitely appreciate <i>(and hope you do as well)</i> well-organized elegant
  - Play starts when the ball is served by one player and then returned by the other player; play continues in a turn-based fashion until one player fails to return the ball on his turn.
  - If one player fails to return the ball on his turn, the other player will win one point and the play for that point is over.
  - Each player takes turns serving the ball every 5 points, so if player 1 serves for the first five points, player 2 will serve for the next five points regardless of who wins the points.
- - The winner of a game is the player that is the first to score 21 points.
-
+ - The winner of a game is the player that is the first to score 21 points. 
 
 ###Assumptions:
   -Each player's ability is based on probability of returning the ball. A 30% chance of returning a ball means there is a 70% chance of not returning and therefore the player's opponent winning the point.
@@ -30,6 +29,7 @@ We definitely appreciate <i>(and hope you do as well)</i> well-organized elegant
     - topspin
     - unreturnable
 
+  - The type of shot is determined by the "probability of shot type" for that player and a pseudo-randomly generated number.
   - On return of a serve, after probability determines that the player returned the ball sucessfully, there is an additional 10% chance that they failed to return it.
   - If a shot is unreturnable, the probability of returning that shot is automatically 0.0%
 
