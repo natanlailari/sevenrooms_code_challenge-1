@@ -21,18 +21,15 @@ We definitely appreciate <i>(and hope you do as well)</i> well-organized elegant
  - The winner of a game is the player that is the first to score 21 points. 
 
 ###Assumptions:
-  -Each player's ability is based on probability of returning the ball. A 30% chance of returning a ball means there is a 70% chance of not returning and therefore the player's opponent winning the point.
-
+  - Each player's ability is based on probability of returning the ball. A 30% chance of returning a ball means there is a 70% chance of not returning and therefore the player's opponent winning the point.
   - There are four different shot types:
     - flat
     - slice
     - topspin
     - unreturnable
-
   - The type of shot is determined by the "probability of shot type" for that player and a pseudo-randomly generated number.
   - On return of a serve, after probability determines that the player returned the ball sucessfully, there is an additional 10% chance that they failed to return it.
   - If a shot is unreturnable, the probability of returning that shot is automatically 0.0%
-
 
 ##Data:
 ###Players:
@@ -53,7 +50,7 @@ We definitely appreciate <i>(and hope you do as well)</i> well-organized elegant
     - 20% slice
     - 66% topspin
     - 4% unreturnable
-  - Probability of returning a shot :
+  - Probability of returning a shot:
     - 65% flat
     - 50% slice
     - 85% topspin
@@ -83,7 +80,7 @@ You can come up with your own human-readable representation of the play-by-play 
 
 ##Questions to answer
 <ol>
-    <li>In our system of three players, who wins the most? Explain why you made this conclusion.</li>
+    <li>In our system of three players, who wins the most and who loses the most? Explain how you arrived at your conclusion.</li>
     <li>After how many samples were you able to confidently make this determination?</li>
 </ol>
 
