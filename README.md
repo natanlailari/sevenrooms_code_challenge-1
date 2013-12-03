@@ -34,34 +34,34 @@ We definitely appreciate <i>(and hope you do as well)</i> well-organized elegant
 ##Data:
 ###Players:
 ####Player 1 - <i>Bruce Leeds</i>
-  - Probability of shot type:
+  - Probability of hitting shot type:
     - 47% flat
     - 25% slice
     - 25% topspin
     - 3% unreturnable
-  - Probability of returning a shot
+  - Probability of returning a shot of type:
     - 80% flat
     - 45% slice
     - 75% topspin
 
 ####Player 2 - <i>Serena Williamson</i>
-  - Probability of shot type:
+  - Probability of hitting shot type:
     - 10% flat
     - 20% slice
     - 66% topspin
     - 4% unreturnable
-  - Probability of returning a shot:
+  - Probability of returning a shot of type:
     - 65% flat
     - 50% slice
     - 85% topspin
 
 ####Player 3 - <i>Jean Claude Van Dime</i>
-  - Probability of shot type:
+  - Probability of hitting shot type:
     - 70% flat
     - 10% slice
     - 15% topspin
     - 5% unreturnable
-  - Probability of returning a shot:
+  - Probability of returning a shot of type:
     - 90% flat
     - 25% slice
     - 85% topspin
