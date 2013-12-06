@@ -28,7 +28,8 @@ We definitely appreciate <i>(and hope you do as well)</i> well-organized elegant
     - topspin
     - unreturnable
   - The type of shot is determined by the "probability of shot type" for that player and a pseudo-randomly generated number.
-  - On return of a serve, after probability determines that the player returned the ball sucessfully, there is an additional 10% chance that they failed to return it.
+  - A serve is also a shot and follows the same probabilities as the shots for that player.
+  - However, on the return of a serve, the returning player has an additional 10% chance that they will fail to return the ball.
   - If a shot is unreturnable, the probability of returning that shot is automatically 0.0%
 
 ##Data:
