@@ -83,6 +83,10 @@ You can come up with your own human-readable representation of the play-by-play 
 <ol>
     <li>In our system of three players, who wins the most and who loses the most? Explain how you arrived at your conclusion.</li>
     <li>After how many samples were you able to confidently make this determination?</li>
+    <li>Design your own player to beat the existing players and show the game results. The constraints are as follows:<br>
+    For hitting shot type: maximum 5% unreturnable<br>
+    For returning shot type: maximum of 200 percentage points across all return probabilities
+    </li>
 </ol>
 
 ##Submitting your solution:
